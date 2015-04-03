@@ -70,7 +70,7 @@ int main(){
 
 			// count and print
 			counter_A = (a == input_a) + (b == input_b) + (c == input_c);
-	
+
 			counter_B = (a == input_b) + (a == input_c) + (b == input_a) 
 				+ (b == input_c) + (c == input_a) + (c == input_b);
 
@@ -83,7 +83,7 @@ int main(){
 			}
 			// check if you lose
 			if (i == 6){
-				cout<<"很遗憾，你没有在规定次数内猜对。答案是 "<<a<<b<<c<<endl;
+				cout<<"很遗憾，你没有在规定次数内猜对。答案是 "<<a<<' '<<b<<' '<<c<<' '<<endl;
 			}
 		}
 	}
